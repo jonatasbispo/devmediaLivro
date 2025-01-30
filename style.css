@@ -1,0 +1,37 @@
+h1{
+    text-align: center;
+}
+nav {
+    display: flex; /* Utiliza flexbox para alinhar os itens */
+    justify-content: flex-start; /* Alinha os itens à esquerda */
+    margin-bottom: 20px; /* Espaço abaixo da barra de navegação */
+}
+
+nav ul {
+    list-style: none; /* Remove as bolinhas das listas */
+    padding: 0; /* Remove o padding padrão */
+    margin: 0; /* Remove a margem padrão */
+    display: flex; /* Coloca os itens da lista em linha */
+}
+
+nav li {
+    margin-right: 20px; /* Espaçamento entre os itens da lista */
+}
+
+nav a {
+    text-decoration: none; /* Remove o sublinhado dos links */
+    color: #3d6f85; /* Cor do texto do link */
+    font-weight: bold; /* Deixa o texto em negrito, se desejado */
+}
+
+nav a:hover {
+    text-decoration: underline; /* Sublinha os links ao passar o mouse */
+}
+img {
+    display: block;       /* Faz a imagem ser tratada como um bloco */
+    margin-left: auto;   /* Margem esquerda automática */
+    margin-right: auto;  /* Margem direita automática */
+}
+footer{
+    text-align: center;
+}
