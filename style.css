@@ -32,6 +32,18 @@ img {
     margin-left: auto;   /* Margem esquerda automática */
     margin-right: auto;  /* Margem direita automática */
 }
+body{
+    background-color: #CAE0BC;
+}
+h3{
+    text-align: center;
+}
+p {
+    margin: 20px 0; /* Ajuste para margens superior e inferior, mantendo um espaçamento consistente */
+    font-size: 1rem; /* Usar rem para tornar o texto responsivo */
+    line-height: 1.5; /* Aumenta o espaço entre as linhas para melhorar a legibilidade */
+    color: #333; /* Cor do texto com um bom contraste */
+}
 footer{
     text-align: center;
 }
